@@ -148,6 +148,27 @@ void Board::DrawBoard()
 	startPos->DrawBound();
 }
 
+void Board::ShowEndGame()
+{
+	if (winner != 0)
+	{
+		markedPoints[currentIndex.GetRow()][currentIndex.GetCol()]->ClearBound();
+		for (const PairIndex& slot : winSlots)
+		{
+			markedPoints[slot.GetRow()][slot.GetCol()]->MakeBound(Point(1, 1), RED_RED);
+			markedPoints[slot.GetRow()][slot.GetCol()]->DrawBound();
+			Sleep(500);
+		}
+		Sleep(3000);
+		for (const PairIndex& slot : winSlots)
+		{
+			//recover color
+			markedPoints[slot.GetRow()][slot.GetCol()]->MakeBound(Point(1, 1), YELLOW_YELLOW);
+			markedPoints[slot.GetRow()][slot.GetCol()]->ClearBound(GRAY_GRAY);
+		}
+	}
+}
+
 bool Board::Input(const int& who)
 {
 	SlotBoard* temp = markedPoints[currentIndex.GetRow()][currentIndex.GetCol()];
@@ -217,7 +238,7 @@ bool Board::CheckState(const int& mark, const PairIndex& index)
 
 bool Board::CheckByDimension(const int& mark, const PairIndex& index, const int& dimRow, const int& dimCol)
 {
-	int count = 0;
+	winSlots.clear();
 	PairIndex offset(index);
 	//Move to the top left anchor
 	offset.Move(-(timeToWin-1)* dimRow, -(timeToWin-1)* dimCol);
@@ -240,12 +261,12 @@ bool Board::CheckByDimension(const int& mark, const PairIndex& index, const int&
 
 		if (markedPoints[offset.GetRow()][offset.GetCol()]->GetMark() == mark)
 		{
-			count++;
-			if (count >= timeToWin) //TIMETOWIN continous marks 
+			winSlots.push_back(offset);
+			if (winSlots.size() >= timeToWin) //TIMETOWIN continous marks 
 				return true;
 		}
 		else
-			count = 0; //Not continous => reset to 0
+			winSlots.clear(); //Not continous => reset to 0
 
 		//Current offset from the point
 		offset.Move(dimRow, dimCol);

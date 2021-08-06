@@ -96,7 +96,10 @@ int RoundManager::StartRound(const int& t)
 			return -out;
 
 		if (board->IsEndGame())
+		{
+			board->ShowEndGame();
 			return turn + 1;
+		}
 		else if (board->IsFull())
 			return 0;
 	}

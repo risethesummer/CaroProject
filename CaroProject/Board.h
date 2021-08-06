@@ -21,8 +21,8 @@ class Board
 		Point anchor; 
 		//Points to be marked by users
 		vector<vector<SlotBoard*>> markedPoints; 
+		vector<PairIndex> winSlots;
 		PairIndex currentIndex;
-		bool liveGame;
 		int timeToWin;
 		int winner = 0;
 		//Receiving mark of the player (1, 2)
@@ -43,6 +43,7 @@ class Board
 		void SetMarks(const vector<vector<int>>& marks);
 		vector<vector<SlotBoard*>>* GetPoints();
 		void DrawBoard();
+		void ShowEndGame();
 		void MoveCursor(const int& offsetRow, const int& offsetCol);
 		void SetCurrentIndex(const int& row, const int& col);
 		bool Input(const int&); //Draw user's move and return the state of the board after moving
