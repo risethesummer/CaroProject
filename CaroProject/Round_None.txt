@@ -1,0 +1,10 @@
+Round_Guide_Exit.txt
+Round_Guide_Save.txt
+Tie.txt
+Player1_Win.txt
+Player2_Win.txt
+Bot_Win.txt
+Player1_Icon.txt
+Player2_Icon.txt
+Bot_Easy_Icon.txt
+Bot_Hard_Icon.txt

@@ -1,0 +1,7 @@
+Setting_Title.txt
+Setting_Board_Show_Size_3.txt
+Setting_Board_Show_Size_5.txt
+Setting_Board_Show_Size_7.txt
+Setting_Time_Show_Size_3.txt
+Setting_Time_Show_Size_5.txt
+Setting_Time_Show_Size_7.txt

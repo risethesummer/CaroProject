@@ -15,43 +15,423 @@
     </Filter>
   </ItemGroup>
   <ItemGroup>
-    <ClCompile Include="Source.cpp">
+    <ClCompile Include="Point.cpp">
       <Filter>Source Files</Filter>
     </ClCompile>
-    <ClCompile Include="BoardExecute.cpp">
+    <ClCompile Include="Screen.cpp">
       <Filter>Source Files</Filter>
     </ClCompile>
-    <ClCompile Include="PointExecute.cpp">
+    <ClCompile Include="Input.cpp">
       <Filter>Source Files</Filter>
     </ClCompile>
-    <ClCompile Include="ScreenExecute.cpp">
-      <Filter>Source Files</Filter>
-    </ClCompile>
-    <ClCompile Include="RoundExecute.cpp">
-      <Filter>Source Files</Filter>
-    </ClCompile>
-    <ClCompile Include="PlayerExecute.cpp">
+    <ClCompile Include="RealPlayer.cpp">
       <Filter>Source Files</Filter>
     </ClCompile>
     <ClCompile Include="Player.cpp">
       <Filter>Source Files</Filter>
     </ClCompile>
+    <ClCompile Include="Board.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="MainProgram.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="FileManager.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="Utility.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="UIComponent.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="SlotBoard.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="KeyMapping.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="RoundManager.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="PairIndex.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="UIBound.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="Menu.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="InteractiveMenu.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="GameManager.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="Function.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="GameModeFunction.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="SettingFunction.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="EasyBot.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="HardBot.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="SaveFunction.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="LoadFunction.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="AboutFunction.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
   </ItemGroup>
   <ItemGroup>
-    <ClInclude Include="Screen.h">
-      <Filter>Header Files</Filter>
-    </ClInclude>
-    <ClInclude Include="Point.h">
-      <Filter>Header Files</Filter>
-    </ClInclude>
     <ClInclude Include="Board.h">
-      <Filter>Header Files</Filter>
-    </ClInclude>
-    <ClInclude Include="Round.h">
       <Filter>Header Files</Filter>
     </ClInclude>
     <ClInclude Include="Player.h">
       <Filter>Header Files</Filter>
     </ClInclude>
+    <ClInclude Include="RealPlayer.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="Point.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="Screen.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="Input.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="FileManager.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="Utility.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="UIComponent.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="SlotBoard.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="Color.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="KeyMapping.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="RoundManager.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="PairIndex.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="UIBound.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="Menu.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="InteractiveMenu.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="GameManager.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="Function.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="GameModeFunction.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="SettingFunction.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="EasyBot.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="HardBot.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="SaveFunction.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="LoadFunction.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="AboutFunction.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <Text Include="MarkX.txt">
+      <Filter>Resource Files</Filter>
+    </Text>
+    <Text Include="MarkO.txt">
+      <Filter>Resource Files</Filter>
+    </Text>
+    <Text Include="MarkSlot.txt">
+      <Filter>Resource Files</Filter>
+    </Text>
+    <Text Include="Menu_Option_Start.txt">
+      <Filter>Resource Files</Filter>
+    </Text>
+    <Text Include="Menu_Option_Load.txt">
+      <Filter>Resource Files</Filter>
+    </Text>
+    <Text Include="Menu_Option_About.txt">
+      <Filter>Resource Files</Filter>
+    </Text>
+    <Text Include="Menu_Option_Setting.txt">
+      <Filter>Resource Files</Filter>
+    </Text>
+    <Text Include="Mode_Option_2Player.txt">
+      <Filter>Resource Files</Filter>
+    </Text>
+    <Text Include="Mode_Title.txt">
+      <Filter>Resource Files</Filter>
+    </Text>
+    <Text Include="Menu_None.txt">
+      <Filter>Resource Files</Filter>
+    </Text>
+    <Text Include="Menu_Has.txt">
+      <Filter>Resource Files</Filter>
+    </Text>
+    <Text Include="Mode_None.txt">
+      <Filter>Resource Files</Filter>
+    </Text>
+    <Text Include="Mode_Has.txt">
+      <Filter>Resource Files</Filter>
+    </Text>
+    <Text Include="BoardSize_3.txt">
+      <Filter>Resource Files</Filter>
+    </Text>
+    <Text Include="BoardSize_5.txt">
+      <Filter>Resource Files</Filter>
+    </Text>
+    <Text Include="BoardSize_7.txt">
+      <Filter>Resource Files</Filter>
+    </Text>
+    <Text Include="Mode_Option_Bot_Hard.txt">
+      <Filter>Resource Files</Filter>
+    </Text>
+    <Text Include="Mode_Option_Bot_Easy.txt">
+      <Filter>Resource Files</Filter>
+    </Text>
+    <Text Include="Setting_None.txt">
+      <Filter>Resource Files</Filter>
+    </Text>
+    <Text Include="Setting_Title.txt">
+      <Filter>Resource Files</Filter>
+    </Text>
+    <Text Include="Setting_Has.txt">
+      <Filter>Resource Files</Filter>
+    </Text>
+    <Text Include="Setting_Option_Size.txt">
+      <Filter>Resource Files</Filter>
+    </Text>
+    <Text Include="Setting_Size_Has.txt">
+      <Filter>Resource Files</Filter>
+    </Text>
+    <Text Include="Round_None.txt">
+      <Filter>Resource Files</Filter>
+    </Text>
+    <Text Include="Round_Has.txt">
+      <Filter>Resource Files</Filter>
+    </Text>
+    <Text Include="Player1_Icon.txt">
+      <Filter>Resource Files</Filter>
+    </Text>
+    <Text Include="Player2_Icon.txt">
+      <Filter>Resource Files</Filter>
+    </Text>
+    <Text Include="Bot_Easy_Icon.txt">
+      <Filter>Resource Files</Filter>
+    </Text>
+    <Text Include="Bot_Hard_Icon.txt">
+      <Filter>Resource Files</Filter>
+    </Text>
+    <Text Include="Round_Guide_Exit.txt">
+      <Filter>Resource Files</Filter>
+    </Text>
+    <Text Include="Round_Confirm_Out_None.txt">
+      <Filter>Resource Files</Filter>
+    </Text>
+    <Text Include="Round_Confirm_Out_Has.txt">
+      <Filter>Resource Files</Filter>
+    </Text>
+    <Text Include="Confirm_Exit_Title.txt">
+      <Filter>Resource Files</Filter>
+    </Text>
+    <Text Include="Confirm_Exit_Yes.txt">
+      <Filter>Resource Files</Filter>
+    </Text>
+    <Text Include="Confirm_Exit_No.txt">
+      <Filter>Resource Files</Filter>
+    </Text>
+    <Text Include="Player1_Win.txt">
+      <Filter>Resource Files</Filter>
+    </Text>
+    <Text Include="Player2_Win.txt">
+      <Filter>Resource Files</Filter>
+    </Text>
+    <Text Include="Bot_Win.txt">
+      <Filter>Resource Files</Filter>
+    </Text>
+    <Text Include="Tie.txt">
+      <Filter>Resource Files</Filter>
+    </Text>
+    <Text Include="Round_Guide_Save.txt">
+      <Filter>Resource Files</Filter>
+    </Text>
+    <Text Include="Save_Title.txt">
+      <Filter>Resource Files</Filter>
+    </Text>
+    <Text Include="Save_Slot_1.txt">
+      <Filter>Resource Files</Filter>
+    </Text>
+    <Text Include="Save_None.txt">
+      <Filter>Resource Files</Filter>
+    </Text>
+    <Text Include="Save_Has.txt">
+      <Filter>Resource Files</Filter>
+    </Text>
+    <Text Include="Save_Slot_2.txt">
+      <Filter>Resource Files</Filter>
+    </Text>
+    <Text Include="Save_Slot_3.txt">
+      <Filter>Resource Files</Filter>
+    </Text>
+    <Text Include="Setting_Option_Time.txt">
+      <Filter>Resource Files</Filter>
+    </Text>
+    <Text Include="Setting_Board_Show_Size_3.txt">
+      <Filter>Resource Files</Filter>
+    </Text>
+    <Text Include="Setting_Board_Show_Size_5.txt">
+      <Filter>Resource Files</Filter>
+    </Text>
+    <Text Include="Setting_Board_Show_Size_7.txt">
+      <Filter>Resource Files</Filter>
+    </Text>
+    <Text Include="Setting_Time_Has.txt">
+      <Filter>Resource Files</Filter>
+    </Text>
+    <Text Include="Setting_Time_Show_Size_3.txt">
+      <Filter>Resource Files</Filter>
+    </Text>
+    <Text Include="Setting_Time_Show_Size_5.txt">
+      <Filter>Resource Files</Filter>
+    </Text>
+    <Text Include="Setting_Time_Show_Size_7.txt">
+      <Filter>Resource Files</Filter>
+    </Text>
+    <Text Include="Setting_Select_Size_3.txt">
+      <Filter>Resource Files</Filter>
+    </Text>
+    <Text Include="Setting_Select_Size_5.txt">
+      <Filter>Resource Files</Filter>
+    </Text>
+    <Text Include="Setting_Select_Size_7.txt">
+      <Filter>Resource Files</Filter>
+    </Text>
+    <Text Include="Setting_Exit.txt">
+      <Filter>Resource Files</Filter>
+    </Text>
+    <Text Include="Save_Slot_0.txt">
+      <Filter>Resource Files</Filter>
+    </Text>
+    <Text Include="Load_None.txt">
+      <Filter>Resource Files</Filter>
+    </Text>
+    <Text Include="Mode_Exit.txt">
+      <Filter>Resource Files</Filter>
+    </Text>
+    <Text Include="Load_Title.txt">
+      <Filter>Resource Files</Filter>
+    </Text>
+    <Text Include="Load_Slot_0.txt">
+      <Filter>Resource Files</Filter>
+    </Text>
+    <Text Include="Load_Slot_1.txt">
+      <Filter>Resource Files</Filter>
+    </Text>
+    <Text Include="Load_Slot_2.txt">
+      <Filter>Resource Files</Filter>
+    </Text>
+    <Text Include="Load_Slot_3.txt">
+      <Filter>Resource Files</Filter>
+    </Text>
+    <Text Include="Load_Slot_4.txt">
+      <Filter>Resource Files</Filter>
+    </Text>
+    <Text Include="Load_Has.txt">
+      <Filter>Resource Files</Filter>
+    </Text>
+    <Text Include="Load_Exit.txt">
+      <Filter>Resource Files</Filter>
+    </Text>
+    <Text Include="About_None.txt">
+      <Filter>Resource Files</Filter>
+    </Text>
+    <Text Include="About_Title.txt">
+      <Filter>Resource Files</Filter>
+    </Text>
+    <Text Include="About_Has.txt">
+      <Filter>Resource Files</Filter>
+    </Text>
+    <Text Include="About_Open_Github.txt">
+      <Filter>Resource Files</Filter>
+    </Text>
+    <Text Include="About_Exit.txt">
+      <Filter>Resource Files</Filter>
+    </Text>
+    <Text Include="Save_Exit.txt">
+      <Filter>Resource Files</Filter>
+    </Text>
+    <Text Include="Menu_Option_Exit.txt">
+      <Filter>Resource Files</Filter>
+    </Text>
+    <Text Include="Menu_Title_Left.txt">
+      <Filter>Resource Files</Filter>
+    </Text>
+    <Text Include="Menu_Title_Right.txt">
+      <Filter>Resource Files</Filter>
+    </Text>
+    <Text Include="Intro_None.txt">
+      <Filter>Resource Files</Filter>
+    </Text>
+    <Text Include="Intro_Char_Tic.txt">
+      <Filter>Resource Files</Filter>
+    </Text>
+    <Text Include="Intro_Char_Tac.txt">
+      <Filter>Resource Files</Filter>
+    </Text>
+    <Text Include="Intro_Char_Toe.txt">
+      <Filter>Resource Files</Filter>
+    </Text>
+    <Text Include="Outro_None.txt">
+      <Filter>Resource Files</Filter>
+    </Text>
+    <Text Include="Outro_Char_Thanks.txt">
+      <Filter>Resource Files</Filter>
+    </Text>
+    <Text Include="Outro_Char_For.txt">
+      <Filter>Resource Files</Filter>
+    </Text>
+    <Text Include="Outro_Char_Playing.txt">
+      <Filter>Resource Files</Filter>
+    </Text>
   </ItemGroup>
 </Project>

@@ -1,0 +1,3 @@
+Setting_Option_Size.txt
+Setting_Option_Time.txt
+Setting_Exit.txt

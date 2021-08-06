@@ -1,27 +1,32 @@
 #include "Player.h"
 
-Player::Player(string name)
+Player::Player()
 {
-	this->name = name;
+	playBoard = nullptr;
+	order = 0;
+	score = 0;
+}
+
+Player::Player(const int& order, Board* board)
+{
+	this->order = order;
+	this->playBoard = board;
 	this->score = 0;
 }
 
-int Player::GetScore()
+int Player::GetScore() const
 {
 	return score;
 }
 
+
+int Player::GetOrder() const
+{
+	return order;
+}
+
 void Player::SetScore(const int& newScore)
 {
-	this->score = newScore;
-}
-
-string Player::GetName()
-{
-	return this->name;
-}
-
-Point Player::GetMove()
-{
-	return Point();
+	if (newScore > 0)
+		this->score = newScore;
 }

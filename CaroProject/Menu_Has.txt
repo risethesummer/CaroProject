@@ -1,0 +1,5 @@
+Menu_Option_Start.txt
+Menu_Option_Load.txt
+Menu_Option_Setting.txt
+Menu_Option_About.txt
+Menu_Option_Exit.txt
